@@ -1,0 +1,25 @@
+/*Common*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header*/
+
+.view{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.grey-btn{
+    background-color: rgb(75, 75, 75);
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
