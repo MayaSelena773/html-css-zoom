@@ -66,9 +66,9 @@ main{
 /*footer*/
 
 footer {
-    background-color: lightskyblue;
-    height: 100px;
-    padding-top: 10px;
+    background-color: black;
+    height: 80px;
+    padding-top: 15px;
 }
 
 .grey-footer {
@@ -79,19 +79,20 @@ footer {
 .side-icons{
     width: 150px;
     height: 50px;
-    background-color: blanchedalmond;
 }
+
+/*icons-btn*/
 
 .central-icons{
     width: 500px;
     height: 50px;
-    background-color: blanchedalmond;
 }
 
 .end-btn{
     background-color: rgb(75, 75, 75);
     color: red;
-    padding: 15px;
+    padding: 20px;
+    font-size: 10px;
 }
 
 .flex{
@@ -99,7 +100,29 @@ footer {
     justify-content: space-between;
 }
 
-ul{
-    list-style-type: none;
+.flex-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size{
+    font-size: 10px;
+    color: white;
+
+}
+
+.padd{
+    padding-right: 15px;
+    
+}
+
+.padd-btm{
+    padding-bottom: 5px;
+}
+
+.green{
+    color: green;
+    padding-left: 8px;
 }
 
