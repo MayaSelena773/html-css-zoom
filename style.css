@@ -8,15 +8,19 @@
 
 /*header*/
 
-.view{
+header {
+    height: 60px;
+    background-color: black;
+}
+
+.view {
     display: flex;
     justify-content: flex-end;
     padding: 20px;
-    background-color: black;
     color: white;
 }
 
-.grey-btn{
+.grey-btn {
     background-color: rgb(75, 75, 75);
     padding: 5px;
     border-radius: 5px;
@@ -25,10 +29,32 @@
     align-items: center;
 }
 
-.participant{
+/*main*/
+
+main{
+    background-color: lightseagreen;
+    height: calc( 100vh - 180);
+    overflow-y: auto;
+}
+
+.participant {
     width: 150px;
     height: 100px;
     background-color: lightcoral;
+    margin: 10px 4px;
+}
+
+.card-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/*footer*/
+
+footer {
+    background-color: lightskyblue;
+    height: 120px;
 }
 
