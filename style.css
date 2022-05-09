@@ -21,5 +21,14 @@
     padding: 5px;
     border-radius: 5px;
     margin-left: 10px;
+    font-size: 10px;
+    align-items: center;
+}
+
+.participant{
+    width: 150px;
+    height: 100px;
+    background-color: lightcoral;
+    display: flex;
 }
 
