@@ -67,6 +67,39 @@ main{
 
 footer {
     background-color: lightskyblue;
-    height: 120px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.grey-footer {
+    background-color: rgb(39, 39, 39);
+    height: 50px;
+}
+
+.side-icons{
+    width: 150px;
+    height: 50px;
+    background-color: blanchedalmond;
+}
+
+.central-icons{
+    width: 500px;
+    height: 50px;
+    background-color: blanchedalmond;
+}
+
+.end-btn{
+    background-color: rgb(75, 75, 75);
+    color: red;
+    padding: 15px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
 }
 
